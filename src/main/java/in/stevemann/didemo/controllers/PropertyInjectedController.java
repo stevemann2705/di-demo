@@ -1,16 +1,16 @@
 package in.stevemann.didemo.controllers;
 
-import in.stevemann.didemo.services.GreetingServiceImpl;
+import in.stevemann.didemo.services.GreetingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
 @Controller
 public class PropertyInjectedController {
     @Autowired
-    public GreetingServiceImpl greetingService;
+    public GreetingService greetingServiceImpl;
 
     public String sayHello(){
-        return greetingService.sayGreeting();
+        return greetingServiceImpl.sayGreeting();
     }
 
 
