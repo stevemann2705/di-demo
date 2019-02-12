@@ -3,3 +3,10 @@ in:
     username: Steve YML
     password: somepassword
     dburl: yamlURL
+
+---
+spring:
+  profiles: de
+in:
+  jms:
+    username: Steve_YML_German
