@@ -1,0 +1,5 @@
+in:
+  jms:
+    username: Steve YML
+    password: somepassword
+    dburl: yamlURL
